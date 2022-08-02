@@ -12,8 +12,8 @@ password = ''
 
 print("Bem-vindo ao gerador de senhas em python")
 numLetras = int(input("Quantas letras você deseja na senha?\n"))
-numNumeros = int(input("Quantas números você deseja na senha?\n"))
-numSimbolos = int(input("Quantas símbolos você deseja na senha?\n"))
+numNumeros = int(input("Quantos números você deseja na senha?\n"))
+numSimbolos = int(input("Quantos símbolos você deseja na senha?\n"))
 
 
 for letra in range(1, numLetras + 1):
